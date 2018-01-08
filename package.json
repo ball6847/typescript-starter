@@ -2,7 +2,8 @@
   "name": "typescript-starter",
   "version": "0.0.1",
   "description": "starter kit for simple typescript project",
-  "main": "index.js",
+  "repository": "ball6847/typescript-starter",
+  "main": "./dist/index.js",
   "dependencies": {},
   "devDependencies": {
     "prettier": "^1.9.2",
@@ -16,6 +17,6 @@
     "build": "tsc",
     "prettier": "prettier 'src/**/*.*' --write --parser \"typescript\""
   },
-  "author": "",
+  "author": "Porawit Poboonma <ball6847@gmail.com>",
   "license": "ISC"
 }
