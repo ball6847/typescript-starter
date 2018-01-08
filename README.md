@@ -14,7 +14,8 @@ What's included
 Scripts Included
 ----------------
 
-- `npm run build` - Build to ./dist directory. (build target is es6)
+- `npm run build` - Build to `./dist` directory. (build target is es6)
+- `npm run clean` - Delete `./dist` directory
 - `npm run prettier` - Run pretter on all typescript files in `./src`
 
 Todo

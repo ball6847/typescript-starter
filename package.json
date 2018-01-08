@@ -12,6 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./dist",
     "build": "tsc",
     "prettier": "prettier 'src/**/*.*' --write --parser \"typescript\""
   },
