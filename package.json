@@ -5,13 +5,15 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "prettier": "^1.9.2",
     "ts-node": "^4.1.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prettier": "prettier 'src/**/*.*' --write --parser \"typescript\""
   },
   "author": "",
   "license": "ISC"
