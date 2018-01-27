@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf ./dist",
     "build": "tsc",
-    "prettier": "prettier 'src/**/*.*' --write --parser \"typescript\""
+    "prettier": "prettier 'src/**/*.ts' --write --parser \"typescript\""
   },
   "author": "Porawit Poboonma <ball6847@gmail.com>",
   "license": "ISC"
